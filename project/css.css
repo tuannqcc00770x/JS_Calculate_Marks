@@ -1,0 +1,37 @@
+label{
+	width: 150px;
+	display:inline-block;
+}
+span{
+	padding-left: 25px;
+	color: red;
+}
+#css1,#css3{
+	font-weight: bold;
+}
+#css2{
+	position: relative;
+	left:150px;
+}
+table,th,td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th{
+	background-color: lightgrey;
+}
+#css4{
+	position: relative;
+	left:1000px;
+	width:100px;
+}
+#css5{
+	position: relative;
+	left:1025px;
+	width:100px;
+}
+hr{
+	width: 1400px;
+	position: relative;
+	right:430px;
+}

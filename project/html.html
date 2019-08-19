@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Chương trình tính điểm và phân loại học sinh</title>
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="java.js"></script>
+	</head>
+	<body>
+		<select id="slform">
+			<option value=1>Chọn số lượng</option>
+			<option value=1>1</option>
+			<option value=2>2</option>
+			<option value=3>3</option>
+			<option value=4>4</option>
+		</select>
+		<p id="css1">Form nhập liệu</p>
+		<div id="dsform">
+		<form id="form1">
+			<p>
+				<label>Họ tên</label>
+				<input type="text" name="hoten" class="hoten">
+				<span>Họ tên bắt buộc nhập</span>
+			</p>
+			<p>
+				<label>Lớp</label>
+				<input type="text" name="lop" class="lop">
+				<span>Lớp bắt buộc nhập</span>
+			</p>
+			<p>
+				<label>Email</label>
+				<input type="text" name="email" class="email">
+				<span>Email phải nhập và đúng định dạng</span>
+			</p>
+			<p>
+				<label>Số điện thoại</label>
+				<input type="" name="sodienthoai" class="sdt">
+				<span>Số điện thoại phải nhập và đúng định dạng</span>
+			</p>
+			<p>
+				<label>Điểm Văn</label>
+				<input type="number" name="diemvan" class="van">
+				<span>Điểm Văn phải nhập và phải là số từ 0-10</span>
+			</p>
+			<p>
+				<label>Điểm Đạo Đức</label>
+				<input type="number" name="diemdaoduc" class="daoduc">
+				<span>Điểm Đạo Đức phải nhập và phải là số từ 0-10</span>
+			</p>
+			<p>
+				<label>Điểm Lập Trình</label>
+				<input type="number" name="diemlaptrinh" class="laptrinh">
+				<span>Điểm Lập Trình phải nhập và phải là số từ 0-10</span>
+			</p>
+		</form>
+		<hr>
+		</div>
+		<input type="button" name="nhap" value="Nhập" id="css2">
+		<p id="css3">Dữ liệu nhập:</p>
+		<table id="bangthongke">
+			<th width="50px">STT</th>
+			<th width="250px">Họ Tên</th>
+			<th width="100px">Lớp</th>
+			<th width="250px"">Email</th>
+			<th width="150px">SĐT</th>
+			<th width="100px">Văn</th>
+			<th width="100px">Đạo Đức</th>
+			<th width="100px">Lập Trình</th>
+			<th width="100px">Trung Bình</th>
+		</table>
+		<input type="button" name="danhgiahs" value="Đánh giá HS" id="css4">
+		<input type="button" name="tinhtb" value="Tính TB" id="css5">
+	</body>	
+</html>
